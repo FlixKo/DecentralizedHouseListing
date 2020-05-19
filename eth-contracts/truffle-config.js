@@ -18,6 +18,9 @@
  *
  */
 
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const mnemonic = "april direct shine permit bicycle comic jeans device anxiety faith edit move";
+
 // const HDWalletProvider = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
@@ -44,9 +47,16 @@ module.exports = {
     //
      development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
+      port: 9545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
      },
+
+     rinkeby: {
+      provider: function() {
+        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/b3ee980cc0c94fa1b2d0e6b7d20dd618");
+      },
+      network_id: "*" // Match any network id
+    }
 
     // Another network with more advanced options...
     // advanced: {
