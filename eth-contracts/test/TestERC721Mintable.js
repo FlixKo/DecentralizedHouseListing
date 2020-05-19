@@ -1,4 +1,4 @@
-var CustomERC721Token = artifacts.require("CustomERC721Token");
+var CustomERC721Token = artifacts.require("ERC721Mintable");
 
 contract("TestERC721Mintable", (accounts) => {
   const account_owner = accounts[0];
