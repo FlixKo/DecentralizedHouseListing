@@ -1,5 +1,5 @@
 const SolnSquareVerifier = artifacts.require("SolnSquareVerifier");
-const Verifier = artifacts.require("verifier");
+const Verifier = artifacts.require("Verifier");
 
 const proofData = require("./proof");
 
