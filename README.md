@@ -40,6 +40,16 @@ truffle test ./test/TestSolnSquareVerifier.js
 
 truffle migrate --network rinkeby
 
+## Contract Addresses:
+SolnSquareVerifier: 0xddAEcd6120c321F4116aA4015976fFEb6C86B2E5
+
+Verifier: 0xB7c213A286041bbF6702b0482f38234f234C2Dbb
+
+## Contract ABIs:
+/eth-contracts/build/contracts/SolnSquareVerifier.json
+
+## Link to OpenSea marketplace:
+https://rinkeby.opensea.io/assets/realestate-marketplace
 
 # Project Resources
 
